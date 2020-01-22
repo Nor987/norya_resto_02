@@ -1,0 +1,182 @@
+/* feuille de style de la page resto_02 */
+
+/* corps de la page */
+body {
+    background: #50d890;
+    font-family: 'Caveat Brush', cursive;
+}
+
+/* contenu de la page */
+#conteneur {
+    background: url(../img/motif.jpg);
+    margin: 0 auto;
+    width: 800px;
+    height: 2000px;
+    text-align: center;
+}
+
+/* en-tête de la page */
+header {
+    background: url(../img/planches.jpg);
+    height: 400px;
+}
+
+header nav a {
+    position: relative;
+    bottom: 65px;
+    padding-right: 30px;
+    color: #000;
+    text-decoration: none;
+    text-align: right;
+}
+
+.titre {
+    width: 25%;
+    position: relative;
+    padding-left: 30px;
+    text-align: left;
+}
+
+header u {
+    width: 5%;
+    padding: 3px;
+}
+
+.nav {
+    width: 75%;
+    text-align: right;
+}
+
+.haut {
+    width: 800px;
+    float: left;
+}
+
+
+.cerf img{
+    z-index: 2;
+    position: relative;
+    left: 60px;
+}
+
+/* on créer un triangle */
+#triangle {
+    z-index: 1;
+    border-top : 100px solid #cc0066;
+    border-left : 100px solid transparent;
+    display : inline-block;
+    position: relative;
+    top: 20px;
+    right: 50px;
+}
+
+.cercle {
+    background: #c8c8cf;
+    height: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+.rouge {
+    color: #9c3636;
+}
+
+.jaune {
+    color: #dbd96b;
+}
+
+.vert {
+    color: #95ce74;
+}
+
+.fleche {
+    color: #cc0066;
+    position: relative;
+    top: 70px;
+    font-size: 50px;
+}
+
+/* style pour les titres, paragraphes etc */
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+hr {
+    width: 0.6em;
+    color: #cc0066;
+}
+
+header hr {
+    position: relative;
+    right: 44%;
+}
+
+footer hr {
+    position: relative;
+    right: 42%;
+}
+
+/* float */
+.zone {
+    height: 300px;
+    float: left;
+}
+
+/* style du contenu de la page */
+
+span {
+    text-transform: uppercase;
+    color: #cc0066;
+}
+
+.story {
+    width: 320px;   
+}
+
+.fare {
+    width: 294px;
+    padding-left: 45px;
+}
+
+.drink {
+    width: 343px;
+}
+
+.fare img {
+    padding-top: 7px;
+}
+
+.drink img {
+    padding-top: 7px;
+}
+
+/* pied de page */
+footer {
+    position: relative;
+    top: 250px;
+    width: 800px;
+}
+
+.bas {
+    float: left;
+}
+
+.address {
+    width: 50%;
+    position: relative;
+    left: 30px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.reseaux {
+    width: 50%;
+    position: relative;
+    top: 100px;
+    right: 30px;
+    text-align: right;
+}
+
+footer a {
+    color: #cc0066;
+}
